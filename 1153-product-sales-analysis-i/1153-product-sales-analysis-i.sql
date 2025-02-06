@@ -7,4 +7,4 @@ FROM
     Sales s
 LEFT JOIN
     Product p
-USING(product_id)
+ON p.product_id = s.product_id
